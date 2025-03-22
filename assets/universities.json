@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "university_name": "University of Dhaka",
+      "course_name": "Computer Science & Engineering",
+      "duration": "4 Years",
+      "description": "Covers programming, AI, and software engineering fundamentals."
+    },
+    {
+      "id": 2,
+      "university_name": "Bangladesh University of Engineering and Technology",
+      "course_name": "Electrical & Electronic Engineering",
+      "duration": "4 Years",
+      "description": "Focuses on circuits, power systems, and embedded systems."
+    },
+    {
+      "id": 3,
+      "university_name": "North South University",
+      "course_name": "Business Administration",
+      "duration": "4 Years",
+      "description": "Covers finance, marketing, and management strategies."
+    },
+    {
+      "id": 4,
+      "university_name": "BRAC University",
+      "course_name": "Computer Science",
+      "duration": "4 Years",
+      "description": "Emphasizes software engineering, AI, and cybersecurity."
+    },
+    {
+      "id": 5,
+      "university_name": "Independent University, Bangladesh",
+      "course_name": "Environmental Science",
+      "duration": "4 Years",
+      "description": "Focuses on climate change, sustainability, and ecosystem management."
+    },
+    {
+      "id": 6,
+      "university_name": "Jahangirnagar University",
+      "course_name": "Economics",
+      "duration": "4 Years",
+      "description": "Analyzes financial trends, economic policies, and global markets."
+    },
+    {
+      "id": 7,
+      "university_name": "Chittagong University",
+      "course_name": "Marine Science",
+      "duration": "4 Years",
+      "description": "Studies oceanography, marine biology, and fisheries management."
+    },
+    {
+      "id": 8,
+      "university_name": "Khulna University",
+      "course_name": "Architecture",
+      "duration": "5 Years",
+      "description": "Teaches urban design, landscape architecture, and building technology."
+    },
+    {
+      "id": 9,
+      "university_name": "Rajshahi University",
+      "course_name": "Physics",
+      "duration": "4 Years",
+      "description": "Covers quantum mechanics, electromagnetism, and material science."
+    },
+    {
+      "id": 10,
+      "university_name": "Islamic University, Bangladesh",
+      "course_name": "Law",
+      "duration": "4 Years",
+      "description": "Covers criminal law, corporate law, and human rights law."
+    },
+    {
+      "id": 11,
+      "university_name": "Bangladesh Agricultural University",
+      "course_name": "Agricultural Science",
+      "duration": "4 Years",
+      "description": "Focuses on sustainable farming, soil science, and agribusiness."
+    },
+    {
+      "id": 12,
+      "university_name": "Shahjalal University of Science and Technology",
+      "course_name": "Software Engineering",
+      "duration": "4 Years",
+      "description": "Teaches software development, database management, and cloud computing."
+    },
+    {
+      "id": 13,
+      "university_name": "Daffodil International University",
+      "course_name": "Multimedia & Creative Technology",
+      "duration": "4 Years",
+      "description": "Focuses on animation, game development, and visual effects."
+    },
+    {
+      "id": 14,
+      "university_name": "East West University",
+      "course_name": "Pharmaceutical Sciences",
+      "duration": "4 Years",
+      "description": "Covers drug development, pharmacology, and healthcare research."
+    },
+    {
+      "id": 15,
+      "university_name": "American International University-Bangladesh",
+      "course_name": "Data Science & Analytics",
+      "duration": "4 Years",
+      "description": "Focuses on machine learning, big data, and predictive analytics."
+    },
+    {
+      "id": 16,
+      "university_name": "United International University",
+      "course_name": "Electrical Engineering",
+      "duration": "4 Years",
+      "description": "Studies power electronics, renewable energy, and microcontrollers."
+    },
+    {
+      "id": 17,
+      "university_name": "Bangabandhu Sheikh Mujib Medical University",
+      "course_name": "Medicine (MBBS)",
+      "duration": "5 Years",
+      "description": "Covers human anatomy, surgery, and internal medicine."
+    },
+    {
+      "id": 18,
+      "university_name": "Ahsanullah University of Science and Technology",
+      "course_name": "Mechanical Engineering",
+      "duration": "4 Years",
+      "description": "Focuses on thermodynamics, robotics, and automotive engineering."
+    },
+    {
+      "id": 19,
+      "university_name": "University of Liberal Arts Bangladesh",
+      "course_name": "Media & Communication",
+      "duration": "4 Years",
+      "description": "Studies journalism, digital media, and public relations."
+    },
+    {
+      "id": 20,
+      "university_name": "National University, Bangladesh",
+      "course_name": "Accounting & Finance",
+      "duration": "4 Years",
+      "description": "Covers financial accounting, auditing, and investment strategies."
+    }
+  ]
+  
