@@ -15,21 +15,24 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+# Code generator
+
+flutter pub run build_runner build
 
 # Mvvm Architecture
 
 lib/
 │── main.dart
-│── models/                # Data models
-│   ├── course_model.dart
-│── repositories/          # Handles data fetching
-│   ├── course_repository.dart
-│── viewmodels/            # Manages state with Riverpod
-│   ├── course_viewmodel.dart
-│── views/                 # UI Screens
-│   ├── search_screen.dart
-│   ├── details_screen.dart
-│── utils/                 # Utility classes
-│   ├── debouncer.dart
+│── models/ # Data models
+│ ├── course_model.dart
+│── repositories/ # Handles data fetching
+│ ├── course_repository.dart
+│── viewmodels/ # Manages state with Riverpod
+│ ├── course_viewmodel.dart
+│── views/ # UI Screens
+│ ├── search_screen.dart
+│ ├── details_screen.dart
+│── utils/ # Utility classes
+│ ├── debouncer.dart
 ├── assets/
-│   ├── universities.json   # Mock database
+│ ├── universities.json # Mock database
