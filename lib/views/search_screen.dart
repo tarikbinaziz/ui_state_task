@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:ui_state_task/views/course_details_screen.dart';
 
 import '../utils/debouncer.dart';
 import '../viewmodels/course_viewmodel.dart';
@@ -14,7 +15,7 @@ class SearchScreen extends ConsumerStatefulWidget {
 
 class _SearchScreenState extends ConsumerState<SearchScreen> {
   final TextEditingController _searchController = TextEditingController();
-  final Debouncer _debouncer = Debouncer(milliseconds: 500); // 500ms delay
+  final Debouncer _debouncer = Debouncer(milliseconds: 500);
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +23,8 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        scrolledUnderElevation: 0,
+        centerTitle: true,
         title: Text('Search Courses', style: TextStyle(fontSize: 20.sp)),
       ),
       body: Padding(
@@ -58,6 +61,11 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12.r)),
                           child: ListTile(
+                            leading: Hero(
+                              tag: 'course-${course.id}',
+                              child: Icon(Icons.school,
+                                  size: 30.w, color: Colors.blue),
+                            ),
                             title: Text(course.courseName,
                                 style: TextStyle(
                                     fontSize: 18.sp,
@@ -66,7 +74,13 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                                 style: TextStyle(fontSize: 14.sp)),
                             trailing: Icon(Icons.arrow_forward, size: 24.w),
                             onTap: () {
-                              // TODO: Navigate to details screen
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      DetailsScreen(course: course),
+                                ),
+                              );
                             },
                           ),
                         );
